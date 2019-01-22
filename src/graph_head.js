@@ -1,6 +1,7 @@
 import React from 'react';
 
-export default class GraphHead extends React.Component {
+export default class GraphHead extends React.Component
+{
     render() {
         return (
             <div id='graph_head'>
@@ -9,7 +10,8 @@ export default class GraphHead extends React.Component {
             </div>
         );
     }
-    onCloseGraphClick() {
+    onCloseGraphClick()
+    {
         document.getElementById('pref_graph').style.display = 'none';
         document.getElementById('original_body').style.opacity = 1;
         this.props.closeGraph();
