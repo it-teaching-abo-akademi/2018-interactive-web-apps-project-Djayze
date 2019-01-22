@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/it-teaching-abo-akademi/2018-interactive-web-apps-project-Djayze.git/precache-manifest.d7e9b262f909a77119b45908964036ba.js"
+  "/2018-interactive-web-apps-project-Djayze/precache-manifest.6b655cc2a7c4ff7b6e959453ec05002b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/it-teaching-abo-akademi/2018-interactive-web-apps-project-Djayze.git/index.html", {
+workbox.routing.registerNavigationRoute("/2018-interactive-web-apps-project-Djayze/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
