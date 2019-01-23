@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/2018-interactive-web-apps-project-Djayze/precache-manifest.6b655cc2a7c4ff7b6e959453ec05002b.js"
+  "/2018-interactive-web-apps-project-Djayze/precache-manifest.74d6309fe999304fe04b31c5a666aeb8.js"
 );
 
 workbox.clientsClaim();
