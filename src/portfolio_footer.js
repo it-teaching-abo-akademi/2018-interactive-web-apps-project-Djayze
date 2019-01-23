@@ -19,7 +19,7 @@ export default class PortfolioFooter extends React.Component
     onGetGraphClick()
     {
         const portfolioName = this.props.name;
-        document.getElementById('pref_graph').style.display = 'block';
+        document.getElementById('perf_graph').style.display = 'block';
         document.getElementById('original_body').style.opacity = 0.4;
         this.props.getStockList(portfolioName);
     }

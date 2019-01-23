@@ -12,7 +12,7 @@ export default class GraphHead extends React.Component
     }
     onCloseGraphClick()
     {
-        document.getElementById('pref_graph').style.display = 'none';
+        document.getElementById('perf_graph').style.display = 'none';
         document.getElementById('original_body').style.opacity = 1;
         this.props.closeGraph();
     }
